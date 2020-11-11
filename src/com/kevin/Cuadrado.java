@@ -12,13 +12,6 @@ public class Cuadrado implements Shape {
         this.lado = lado;
     }
 
-    public Cuadrado(){
-
-    }
-
-    public Cuadrado(int lado) {
-        this.lado = lado;
-    }
 
     @Override
     public double getArea() {

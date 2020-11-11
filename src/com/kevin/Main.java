@@ -9,12 +9,15 @@ public class Main {
         boolean ejec = true;
         int op = 0;
         do {
+            System.out.println("--------------------------------------------");
             System.out.println("(1) Circulo\n" +
                     "(2) Cuadrado\n" +
                     "(3) Triangulo Equilatero");
 
             System.out.println("Ingresa una opcion");
             op = scanner.nextInt();
+
+            System.out.println("--------------------------------------------");
 
             switch (op){
                 case 1:
